@@ -27,7 +27,8 @@ SECRET_KEY = 'rs6o7z^i!f5(#*dohkm_napkkaojfdjcs#u+_*=gxi!8p!!-#s'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-# ALLOWED_HOSTS = ['watchconcertsnow.herokuapp.com']
+# ALLOWED_HOSTS = ['https://dbms-concert-booking.herokuapp.com/',
+#                  'localhost', '127.0.0.1']
 
 
 # Application definition
