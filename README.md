@@ -27,7 +27,7 @@ We have implemented various features such as -
 4. Change the mysql password in Project/settings.py
 
 For Creating Database you have two options
-Option - 1) Import the sample Database in MySQL Workbench.
-Option - 2) use "python manage.py migrate". This will create an empty database which you will have to populate.
+- first option, Import the sample Database in MySQL Workbench.
+- second option, use "python manage.py migrate". This will create an empty database which you will have to populate.
 
 After all this is done successfully, run "python manage.py runserver" and open the link in browser
