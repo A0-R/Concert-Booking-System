@@ -19,3 +19,15 @@ We have implemented various features such as -
 - Django
 - MySQL
 - Git
+
+## Instructions to install the application
+1. Clone the repository.
+2. Setup an virtual environment
+3. Install all the required packages using "pip install -r requirements.txt"
+4. Change the mysql password in Project/settings.py
+
+For Creating Database you have two options
+Option - 1) Import the sample Database in MySQL Workbench.
+Option - 2) use "python manage.py migrate". This will create an empty database which you will have to populate.
+
+After all this is done successfully, run "python manage.py runserver" and open the link in browser
